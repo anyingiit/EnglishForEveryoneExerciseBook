@@ -3,9 +3,10 @@
 
 # EnglishForEveryoneExerciseBook
 
-English for everyone exercise book: no README or manifest to go on; based on its name, this looks like a learning exercise — open the repository to confirm.
+An archived, personal notes repository for the English for Everyone exercise-book series, currently holding only a placeholder note file with no exercises recorded yet.
 
-[![CI](https://github.com/anyingiit/EnglishForEveryoneExerciseBook/actions/workflows/ci.yml/badge.svg)](https://github.com/anyingiit/EnglishForEveryoneExerciseBook/actions/workflows/ci.yml)
+**English** · [简体中文](README.zh-CN.md)
+
 [![License](https://img.shields.io/github/license/anyingiit/EnglishForEveryoneExerciseBook)](LICENSE)
 
 [Report a bug](https://github.com/anyingiit/EnglishForEveryoneExerciseBook/issues/new?template=bug_report.yml) · [Request a feature](https://github.com/anyingiit/EnglishForEveryoneExerciseBook/issues/new?template=feature_request.yml)
@@ -24,17 +25,19 @@ English for everyone exercise book: no README or manifest to go on; based on its
 
 ## About The Project
 
-English for everyone exercise book: no README or manifest to go on; based on its name, this looks like a learning exercise — open the repository to confirm.
+EnglishForEveryoneExerciseBook is one of anyingiit's personal repositories, set up to hold notes on the English for Everyone exercise-book series. GitHub lists the repository as archived. Its entire content is a single file, `English For Everyone Exercise book - Note.md`, whose complete body is the line "Start Notes..." — there are no exercises, answers, or scanned pages from the book itself, only an unstarted placeholder for notes that were never written.
 
-See the [open issues](https://github.com/anyingiit/EnglishForEveryoneExerciseBook/issues) for planned features and known issues.
+See the [open issues](https://github.com/anyingiit/EnglishForEveryoneExerciseBook/issues) for anything planned.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Git
+- A text editor or Markdown viewer able to open `English For Everyone Exercise book - Note.md`; the repository has no package manifest, dependency list, or build configuration of any kind.
 
 ### Installation
+
+There is no build step and nothing to install. Cloning the repository gets you a local copy of the notes file:
 
 ```sh
 git clone https://github.com/anyingiit/EnglishForEveryoneExerciseBook.git
@@ -43,8 +46,10 @@ cd EnglishForEveryoneExerciseBook
 
 ## Usage
 
+Open `English For Everyone Exercise book - Note.md` in your editor to read the current notes or add to them:
+
 ```sh
-EnglishForEveryoneExerciseBook --help
+$EDITOR "English For Everyone Exercise book - Note.md"
 ```
 
 ## Contributing
